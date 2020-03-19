@@ -10,13 +10,50 @@
 
 <style>
 
+#båd {
 
+  width: 190px
+
+}
+
+#hello {
+
+margin-left: 20px;
+  position: relative;
+  top: 40px
+
+
+ }
+
+body {background-color: green}
+
+#info {
+
+margin-left: 28px;
+margin-right: 40px;
+  position: relative;
+  top: 100px
+  bottom: 10px;
+}
+
+#super {
+
+position: relative;
+bottom: 210px;
+
+margin-left: 620px;
+margin-right: 60px;
+height: 40px;
+
+}
 
   </style>
-    <title>Hello, world!</title>
+
+    <title>Greenpeace.com</title>
   </head>
   <body>
 
+<!--navigationsbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"><span style= "color:green"> Greenpeace</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,23 +92,79 @@
   </nav>
 
 <!--billede med tekst -->
-
+<div id= "hello">
 <div class="card mb-3" style="max-width: 540px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
+      <img id="båd" src="båd.jpg" class="card-img" alt="">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Hvem er Greenpeace?</h5>
+        <p class="card-text">Greenpeace er verdens største uafhængige miljøorganisation og har i mere end 45 år arbejdet for at give vores fantastiske planet en stemme for fremtidige generationer. <br>
+           Vi accepterer hverken penge fra stater eller virksomheder, hvilket gør os i stand til at være en uafhængig stemme, der alene taler for miljøets interesser.</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--kolonne -->
+  <div id="super">
+<div class="card">
+  <div class="card-header">
+    Handlinger/begivenheder
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Se vores handlinger og begivenhder</h5>
+    <p class="card-text">Få en oversigt over Greenpeace tidligere handlinger og læse om den næste kommende begivneheder!</p>
+    <a href="#" class="btn btn-primary">Klik her!</a>
+  </div>
+</div>
+</div>
+
+<!--billede med tekst -->
+<div id="info">
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="vindmølle.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Om organisationen</h4>
+        <p class="card-text">Greenpeaces aktiviteter finansieres ved bidrag fra støttemedlemmer, donationer samt salg af bl.a. bøger, pjecer, papirvarer og tøj. Foreningen har hovedkontor i Amsterdam. Greenpeace er repræsenteret i 55 lande. Den danske afdeling, åbnet 1980, er organisatorisk sluttet sammen med de andre nordiske lande med hovedkontor i Stockholm. Der er (2015) ca. 26.000 medlemmer i Danmark, 170.000 medlemmer i alt i Norden og 2,8 mio. på verdensplan.
+        <br>
+
+      </p>
+        <p class="card-text"><small class="text-muted"></small>
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="billedetilhistorie.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Historie</h4>
+        <p class="card-text">Greenpeaces første aktion i 1971 markerede begyndelsen på en til tider dramatisk historie, der nu har varet i over 45 år. Det er en historie om mennesker, der ved fælles indsats arbejder målrettet for at beskytte miljøet.
+Verden over er Greenpeace kendt for at være mennesker, der taler miljøets sag. Både bag scenen med politisk lobbyarbejde og igennem aktioner, der retter søgelyset imod dem, der truer verdens natur og miljø.
+I 1970’erne arbejdede Greenpeace som det allerførste for at afskaffe atomkraft og stoppe atomprøvesprængninger. Siden er Greenpeaces fokus blevet udvidet til at omfatte en lang række globale natur- og miljømæssige problemer. Udfordringerne er ikke blevet mindre med tiden, men resultaterne taler deres eget tydelige sprog.</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="aktioner.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Aktioner</h4>
+        <p class="card-text">Greenpeaces arbejde med at beskytte og bevare naturen og miljøet tager udgangspunkt i internationale konventioner og hensigtserklæringer. Når disse ikke bliver efterlevet, kan det være nødvendigt at råbe højt for at få verdenssamfundet til at handle.
+
+Greenpeace har store ambitioner; målet er at give en stemme til naturen og miljøet og til de mennesker, der ikke i tilstrækkelig grad har mulighed for at forsvare sig selv.
+
+Hos Greenpeace arbejder vi aktivt med at identificere miljøproblemer og dokumentere problemernes årsager og omfang. Desværre er dokumentation langt fra altid tilstrækkeligt, og når det er tilfældet, tøver Greenpeace-aktivister ikke med at skride til handling. Greenpeace anvender civil ulydighed til at gøre opmærksom på alvorlige natur- og miljørelaterede problemer.</p>
+        <p class="card-text"><small class="text-muted"><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
+  Støt os
+</button></small></p>
       </div>
     </div>
   </div>
 </div>
 
-<!--billede med tekst -->
 
 
     <!-- Optional JavaScript -->
